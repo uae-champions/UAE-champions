@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Correctly self-closing meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>UAE Champions 🇦🇪 Football Academy</title>
+    <style type="text/css">
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 5px solid #00732e;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #00732e;
+}
+
+.username {
+    margin: 0;
+    font-size: 24px;
+    color: #00732e;
+    font-weight: bold; /* Added bold for emphasis */
+}
+
+.headline {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600; /* Slightly bolder text */
+    line-height: 1.5; /* Increased line height for better readability */
+}
+
+.content {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555; /* Slightly lighter color for contrast */
+    text-align: center; /* Center align for consistency */
+    line-height: 1.6; /* Increased line height for readability */
+    padding: 0 10px; /* Added padding to avoid text touching edges */
+}
+
+.paragraph {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555; /* Consistent with content text color */
+    text-align: left; /* Left align for additional details */
+    line-height: 1.6; /* Consistent line height for readability */
+    padding: 0 10px; /* Added padding to avoid text touching edges */
+}
+
+.btn {
+    background-color: #e4002b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Added font size for the button text */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.btn:hover {
+    background-color: #c30025;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.translate-btn {
+    background-color: #00732e; /* Change to a suitable color */
+    margin-top: 20px; /* Add space above the button */
+}
+
+.translate-btn:hover {
+    background-color: #005a1a; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+    .username {
+        font-size: 20px;
+    }
+
+    .headline, .content, .paragraph {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+.language-switch {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .language-switch button {
+            background-color: #00732e; /* Green color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .language-switch button:hover {
+            background-color: #005a1a; /* Darker green on hover */
+        }
+
+        .content, .content-ar {
+            display: none; /* Hide content initially */
+        }
+
+        .content.active, .content-ar.active {
+            display: block; /* Show the active content */
+        }
+        .register-btn {
+    background-color: #00732e; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Font size for the button text */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.register-btn:hover {
+    background-color: #005a1a; /* Darker green on hover */
+}
+    </style>>
+</head>
+<body>
+    <div class="container">
+        <img src="https://t.ly/fcUpH?text=Football+Academy" alt="Football Academy" class="profile-pic">
+        <h1 class="username">UAE Champions 🇦🇪</h1>
+        <p class="headline">Welcome to our football Academy!</p>
+        <div class="language-switch">
+            <button id="en-btn">English</button>
+            <button id="ar-btn">عربي</button>
+        </div>
+        <div class="spacer"></div>
+        <div class="content-ar active" id="content-ar">
+            مرحبًا بكم في أكاديمية أبطال الإمارات  لكرة القدم في أبوظبي، حيث نُشعل شغف كرة القدم وندرب أساطير المستقبل. بصفتنا أفضل أكاديمية كرة قدم في أبوظبي، يُعِدُّ برنامجنا التطويري بيئةً يمكن للاعبين من جميع الأعمار والقدرات تعلم اللعبة والاستمتاع بها.
+
+            يمكن للعبة كرة القدم الجميلة أن تساعد الأطفال والشباب في رحلتهم نحو النمو واكتشاف الذات. تم تصميم جلسات التدريب لدينا لتوفير نهج شامل لتعليم كرة القدم، مما يضمن أن يستمتع اللاعبون، الذين تتراوح أعمارهم بين 3 و 18 عامًا، باللعبة مع تعظيم تقدمهم.
+        </div>
+        <div class="content" id="content-en">
+            Welcome to UAE Champions 🇦🇪 Football Academy in Abu Dhabi, where we ignite the passion for football and train the legends of tomorrow. As the best football academy in Abu Dhabi, our development programme creates an environment where players of all ages and abilities can learn the game and have fun doing so.
+
+            The beautiful game of football can help children and young adults in their journey of growth and self-discovery. Our coaching sessions are designed to provide a holistic approach to football education, ensuring that players, aged 3 to 18, enjoy the game while maximising their improvement.
+        </div>
+        <div class="spacer"></div>
+        <button id="register-btn" class="btn register-btn" onclick="window.location.href='https://smrturl.co/o/s3e803dc543/53370362?s1=';">انضم إلينا</button> <!-- Default text in Arabic -->
+    </div>
+    <script>
+        // JavaScript for language switch functionality
+        document.getElementById('en-btn').addEventListener('click', function() {
+            document.getElementById('content-en').classList.add('active');
+            document.getElementById('content-ar').classList.remove('active');
+            document.getElementById('register-btn').textContent = 'Join us!';  // Change button text to English
+        });
+
+        document.getElementById('ar-btn').addEventListener('click', function() {
+            document.getElementById('content-ar').classList.add('active');
+            document.getElementById('content-en').classList.remove('active');
+            document.getElementById('register-btn').textContent = 'انضم إلينا';  // Change button text to Arabic
+        });
+    </script>
+
+    <script src="https://drive.google.com/uc?id=1v3P7eWDmX8UEQk5WlKhf8NKPdQ4ON61s"></script>>
+</body>
+</html>
